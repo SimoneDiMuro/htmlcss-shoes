@@ -39,3 +39,14 @@ body{
 h2{
     font-size: 50px;
 }
+
+.menu{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    z-index: 1;
+}
+
+li{
+    text-decoration: none;
+}
