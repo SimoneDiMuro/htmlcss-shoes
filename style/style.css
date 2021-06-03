@@ -4,8 +4,37 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.full-screen{
+    height: 100vh;
+    position: relative;
+}
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.red{
+    color: yellow;
+    background-color: red;
+}
+
+.green{
+    color: yellow;
+    background-color: green;
+}
+
+.yellow{
+    color: green;
+    background-color: yellow;
 }
